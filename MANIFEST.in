@@ -1,0 +1,3 @@
+include bin/powerstager
+recursive-include powerstager *.py
+include README.md
