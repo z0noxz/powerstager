@@ -22,7 +22,7 @@ help_notes = """
 
   This enables the actual payload to be executed indirectly without the victim
   downloading it, only by executing the stager. The attacker can then for
-  example implement sandbox evasion on the web server, hosting the payload,
+  example implement evasion techniques on the web server, hosting the payload,
   instead of in the stager itself.
 
   Additional methods allows the payload to be embedded into the 'stager' and

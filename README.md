@@ -11,7 +11,7 @@ Description
 -----------
 This script creates an executable stager that downloads a selected powershell payload, loads it into memory and executes it using obfuscated EC methods. The script will also encrypt the stager for dynamic signatures and some additional obfuscation.
 
-This enables the actual payload to be executed indirectly without the victim downloading it, only by executing the stager. The attacker can then for example implement sandbox evasion on the web server, hosting the payload, instead of in the stager itself.
+This enables the actual payload to be executed indirectly without the victim downloading it, only by executing the stager. The attacker can then for example implement evasion techniques on the web server, hosting the payload, instead of in the stager itself.
 
 Additional methods allows the payload to be embedded into the 'stager' and temporarily stored encrypted on disk for memory injection.
 
