@@ -196,9 +196,10 @@ c_source = """#include <stdlib.h>
 
 int main(int argc, char *argv[])
 {
+	int [_VAR_X_];
 	char [_VAR_STR_][] = {[_VAL_STR_]};
 	char [_VAR_KEY_][] = {[_VAL_KEY_]};
-	for (int [_VAR_X_] = 0; [_VAR_X_] < sizeof([_VAR_STR_]) / sizeof([_VAR_STR_][0]); [_VAR_X_]++)
+	for ([_VAR_X_] = 0; [_VAR_X_] < sizeof([_VAR_STR_]) / sizeof([_VAR_STR_][0]); [_VAR_X_]++)
 	{
 		[_VAR_STR_][[_VAR_X_]] = [_VAR_STR_][[_VAR_X_]] ^ [_VAR_KEY_][[_VAR_X_] % sizeof([_VAR_KEY_])];
 	}
@@ -216,6 +217,7 @@ c_source_embedded = """#define _CRT_SECURE_NO_DEPRECATE
 
 int main(int argc, char *argv[])
 {
+	int [_VAR_X_];
 	char [_VAR_PATH_][256];
 	const char* [_VAR_TEMP_] = getenv("TEMP");
 	snprintf([_VAR_PATH_], 255, "%s\\\\[_TMP_FILENAME_]", [_VAR_TEMP_]);
@@ -225,7 +227,7 @@ int main(int argc, char *argv[])
 
 	char [_VAR_STR_EMB_][] = {[_VAL_STR_EMB_]};
 	char [_VAR_KEY_EMB_][] = {[_VAL_KEY_EMB_]};
-	for (int [_VAR_X_] = 0; [_VAR_X_] < sizeof([_VAR_STR_EMB_]) / sizeof([_VAR_STR_EMB_][0]); [_VAR_X_]++)
+	for ([_VAR_X_] = 0; [_VAR_X_] < sizeof([_VAR_STR_EMB_]) / sizeof([_VAR_STR_EMB_][0]); [_VAR_X_]++)
 	{
 		[_VAR_STR_EMB_][[_VAR_X_]] = [_VAR_STR_EMB_][[_VAR_X_]] ^ [_VAR_KEY_EMB_][[_VAR_X_] % sizeof([_VAR_KEY_EMB_])];
 	}
@@ -235,7 +237,7 @@ int main(int argc, char *argv[])
 
 	char [_VAR_STR_STG_][] = {[_VAL_STR_STG_]};
 	char [_VAR_KEY_STG_][] = {[_VAL_KEY_STG_]};
-	for (int [_VAR_X_] = 0; [_VAR_X_] < sizeof([_VAR_STR_STG_]) / sizeof([_VAR_STR_STG_][0]); [_VAR_X_]++)
+	for ([_VAR_X_] = 0; [_VAR_X_] < sizeof([_VAR_STR_STG_]) / sizeof([_VAR_STR_STG_][0]); [_VAR_X_]++)
 	{
 		[_VAR_STR_STG_][[_VAR_X_]] = [_VAR_STR_STG_][[_VAR_X_]] ^ [_VAR_KEY_STG_][[_VAR_X_] % sizeof([_VAR_KEY_STG_])];
 	}
