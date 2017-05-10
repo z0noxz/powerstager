@@ -374,9 +374,12 @@ def which(program):
 
 # Integer to binary converter
 def binarray(n):
-	while n:
-		yield n & 0xff
-		n = n >> 8
+	if (n == 0):
+		yield 0
+	else:
+		while n:
+			yield n & 0xff
+			n = n >> 8
 
 
 # Creates dynamic variable names while checking for name collisions
