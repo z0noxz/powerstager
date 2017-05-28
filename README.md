@@ -1,6 +1,12 @@
 PowerStager: This script creates an executable stager that downloads a selected powershell payload.
 ===================================================================================================
 
+Sneak Peek
+----------
+An update to PowerStager is on it's way. Here is a short sneak peek:
+
+[![powerstager sneak peek](https://d1ckdm8qo2u5d0.cloudfront.net/ai/videos/15651711/thumb-160x.jpg?v2r1495997991)](https://vid.me/A2N7 "powerstager sneak peek - Click to Watch!")
+
 Contact
 -------
 * Author: z0noxz
