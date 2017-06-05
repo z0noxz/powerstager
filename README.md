@@ -119,39 +119,51 @@ Open a reverse shell listener:
 
 Reverse shell listener commands:
 * Local-Invoke
+
   *Invokes powershell script files from host*
 
 * Local-Import-Module
+
   *Imports powershell modules from host*
 
 * Local-Set-Width
+
   *Changes the buffer width on remote client*
 
 * Local-Upload
+
   *Uploads files from host*
 
 * Local-Download
+
   *Downloads files from client*
 
 * Local-Download-Commands
+
   *Downloads available powershell commands from client*
 
 * Local-Enumerate-System
+
   *Runs enumeration scripts on client*
 
 * Local-Check-Status
+
   *Collects user and privilage status from client*
 
 * Local-Spawn-Meterpreter
+
   *Spawns meterpreter shells on client*
 
 * Local-Spawn-Reverse-Shell
+
   *Spawns reverse shells on client*
 
 * Local-Credential-Create
+
   *Creates credentials on client*
 
 * Local-Credential-List
+
   *Lists created credentials on client*
 
 
