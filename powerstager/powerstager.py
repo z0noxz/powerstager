@@ -955,7 +955,6 @@ class Framework(object):
 
 	def __init__(self, send_delegate, check_delegate, receive_delegate):
 
-<<<<<<< HEAD
 		# Set delegates
 		self.send_delegate = send_delegate
 		self.check_delegate = check_delegate
@@ -965,16 +964,6 @@ class Framework(object):
 		for fnc in self.framework:
 			self.framework[fnc]["name"] = Utility.dynamic_variable()
 			self.framework[fnc]["function"] = "function " + self.framework[fnc]["name"] + self.framework[fnc]["function"]
-=======
-# Integer to binary converter
-def binarray(n):
-	if (n == 0):
-		yield 0
-	else:
-		while n:
-			yield n & 0xff
-			n = n >> 8
->>>>>>> 0514d86b005091e3d64fdb3cc216f81ba1200fc0
 
 
 	def Upload(self):
