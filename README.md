@@ -11,9 +11,9 @@ PowerStager: This script creates an executable stager that downloads a selected 
 
 Contact
 -------
-* Author: z0noxz
+* Author: Chris Noxz
 * Source: https://github.com/z0noxz/powerstager
-* Email: z0noxz@mail.com
+* Email: chris@noxz.tech
 
 Description
 -----------
