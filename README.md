@@ -1,3 +1,11 @@
+!!! I'm looking for a new maintainer for PowerStager !!!
+========================================================
+I currently lack the time and interest to continue this "project". PowerStager 
+was initially developed just for proving a point to my previous employer, but 
+it has since been used by others. If there is any interest out there to 
+continue and take over maintaining PowerStager send me an email at 
+chris@noxz.tech.
+
 PowerStager: This script creates an executable stager that downloads a selected powershell payload.
 ===================================================================================================
 
